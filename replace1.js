@@ -4,5 +4,4 @@
 
 const nom1 = 'Bonjour, je suis Sofiane.'
 const nom2 = nom1.replace("Sofiane", "Denis")
-
 console.log(nom2)

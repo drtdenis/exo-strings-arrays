@@ -1,7 +1,7 @@
 //En vous aidant de la méthode.split() compter tous les mots du sonnet "El Desdichado" des exercices précédents
 // Appliquée à une string la méthode.split() retourne un tableau
 
-const text = `Je suis le ténébreux, - le veuf, - l'inconsolé,
+const originalString = `Je suis le ténébreux, - le veuf, - l'inconsolé,
 Le prince d'Aquitaine à la tour abolie :
 Ma seule étoile est morte, - et mon luth constellé
 Porte le soleil noir de la Mélancolie.
@@ -19,3 +19,5 @@ Et j'ai deux fois vainqueur traversé l'Achéron ;
 Modulant tour à tour sur la lyre d'Orphée
 Les soupirs de la sainte et les cris de la fée.`
 
+const splistString = originalString.split("")
+console.log(splistString);

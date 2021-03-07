@@ -4,8 +4,10 @@ let str =
 str = str.trim()
 str = str.toLowerCase()
 
-if (str.included('bob')) {
+//console.log (str)
 
+if (str.includes('bob')) {
+  console.log ('bob est la' )
 } else {
   console.log('bob n\'est pas là')
 }
